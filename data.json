@@ -1,0 +1,84 @@
+{
+    "fotografias": [
+        {
+            "id": 1,
+            "titulo": "El Terror de la Guerra",
+            "año": "1972",
+            "imagen": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2016/11/top-100-world-photos-influential-all-time-16-5835a66107ca4__880.jpg?resize=600%2C400&ssl=1",
+            "autor": "Nick Ut",
+            "Descripcion":"El 8 de junio de 1972, Nick Ut, un fotógrafo vietnamita de The Associated Press, capturó una fotografía ahora icónica en la que se ve a unos niños que huían del napalm lanzado por error en su aldea por fuerzas survietnamitas."
+        },
+        {
+            "id": 2,
+            "titulo": "El monje ardiendo",
+            "año": "1963",
+            "imagen":"https://i0.wp.com/hipertextual.com/wp-content/uploads/2016/11/top-100-world-photos-influential-all-time-32-5835a69422b7f__880.jpg?resize=600%2C380&ssl=1", 
+            "autor": "Malcolm Browne",
+            "Descripcion":"Thich Quang Duc era un monje que se inmoló para protestar por la represión contra los budistas en Vietnam. El 11 de junio de 1963, el monje budista Thich Quang Duc se prendió fuego en una de las zonas más transitadas de la ciudad de Ho Chi Min (Vietnam del sur) y se quedó inmóvil hasta morir."
+        },
+        {
+            "id": 3,
+            "titulo": "El Niño hambriento y buitre ",
+            "año": "1993",
+            "imagen": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2016/11/top-100-world-photos-influential-all-time-98-5835a73e14264__880.jpg?resize=600%2C386&ssl=1",
+            "autor": "Kevin Carter",
+            "Descripcion":"Carter y Silva estuvieron alrededor de una semana en Ayod, y casi a punto de partir, Kevin se encontró afuera de los campos de ayuda alimentaria a una niña desnutrida que había caído al suelo. A la distancia merodeaba un buitre. Carter eligió un encuadre en el que el ave y la niña contaban una terrible historia de la hambruna y la depredación en África."
+        },
+        {
+            "id": 4,
+            "titulo": "Almuerzo en la cúspide de un rascacielos",
+            "año": "1932",
+            "imagen": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2016/11/top-100-world-photos-influential-all-time-66-5835a6ee25f26__880.jpg?resize=600%2C468&ssl=1",
+            "autor": "Charles Clyde Ebbets",
+            "Descripcion":"Lunch atop a Skyscraper o Almuerzo sobre un rascacielos es una famosa fotografía en blanco y negro tomada durante la construcción del Edificio RCA en el Rockefeller Center de Nueva York, Estados Unidos, en 1932. "
+        },
+        {
+            "id": 5,
+            "titulo": "Hombre cayendo",
+            "año": "2001",
+            "imagen": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2016/11/top-100-world-photos-influential-all-time-93-5835a7330d8eb__880-1.jpg?resize=600%2C480&ssl=1",
+            "autor": "Richard Drew",
+            "Descripcion":"Un hombre se lanza al vacío tras no soportar las llamas en la torre norte del World Trade Center."
+        },
+        {
+            "id": 6,
+            "titulo": "Nube atómica sobre Nagasaki",
+            "año": "1945",
+            "imagen": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2016/11/top-100-world-photos-influential-all-time-48-5835a6bf75339__880.jpg?resize=600%2C817&ssl=1",
+            "autor": "Teniente Charles Levy",
+            "Descripcion":"Una nube de hongo u hongo nuclear es una nube con forma de hongo de humo, llamas o escombros que se forma a causa de una gran explosión. Se asocian normalmente con las explosiones nucleares, pero las erupciones volcánicas y la colisión de pequeños cuerpos celestes como meteoros o cometas contra la Tierra pueden producir nubes de hongo naturales."
+        },
+        {
+            "id": 7,
+            "titulo": "Hombre Tanque",
+            "año": "1989",
+            "imagen": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2016/11/top-100-world-photos-influential-all-time-3-5835a63ef23db__880.jpg?resize=600%2C388&ssl=1",
+            "autor": "Jeff Widener",
+            "Descripcion":"El 'Hombre del Tanque' fue presentado como un delincuente social, un símbolo de los irresponsables y oportunistas alborotadores que aparecieron durante las protestas de Tiananmen y como un posible agente provocador de los gobiernos occidentales.",
+        },
+        {
+            "id": 8,
+            "titulo": "Un hombre en la luna",
+            "año": "1969",
+            "imagen": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2016/11/top-100-world-photos-influential-all-time-21-5835a67571c99__880.jpg?resize=600%2C654&ssl=1",
+            "autor": "Neil Armstrong",
+            "Descripcion":"Edwin Buzz Aldrin posa sobre la superficie lunar, en una icónica fotografía tomada por el astronauta del Apollo 11 Neil Armstrong, cuyo reflejo puede apreciarse en el reflejo en la visera de Aldrin."
+        },
+        {
+            "id": 9,
+            "titulo": "Madre Emigrante",
+            "año": "1936",
+            "imagen": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2016/11/top-100-world-photos-influential-all-time-62-5835a6e53e1ce__880.jpg?resize=600%2C789&ssl=1",
+            "autor": "Dorothea Lange",
+            "Descripcion":"Como reflejo de las víctimas de la Gran Depresión. Como una de las imágenes más poderosas de la época de la gran depresión, la Madre migrante refleja las víctimas que sufrieron la mayor cantidad en los Estados Unidos durante la década de 1930."
+        },
+        {
+            "id": 10,
+            "titulo": "Sábado Sangriento",
+            "año": "1937",
+            "imagen":"https://i0.wp.com/hipertextual.com/wp-content/uploads/2016/11/top-100-world-photos-influential-all-time-58-5835a6da2c25f__880.jpg?resize=600%2C482&ssl=1",
+            "autor": "H.S Wong",
+            "Descripcion":"La fotografía, que muestra a un bebé chino llorando dentro de las ruinas bombardeadas de la Estación de Tren Sur de Shanghái, se convirtió en un ícono cultural que demostraba las atrocidades de guerra japonesas en China. Tomada minutos después de un ataque aéreo sobre civiles durante la Batalla de Shanghái"
+        }
+    ]
+}
