@@ -1,0 +1,118 @@
+:root {
+  --softBlue: hsl(231, 69%, 60%);
+  --softRed: hsl(0, 94%, 66%);
+  --grayishBlue: hsl(229, 8%, 60%);
+  --veryDarkBlue: hsl(229, 31%, 21%);
+}
+
+html {
+  font-size: 62.5%; /*1 rem = 10px*/
+}
+body {
+  font-size: 1.8rem;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.5;
+  color: white !important;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+h2 {
+  font-size: 3.2rem;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+.form {
+  max-inline-size: 55rem;
+  margin: auto;
+}
+
+.form label {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0.5em;
+  padding-inline-start: 0.5em;
+}
+
+.form label span {
+  color: #000000;
+}
+
+.form input,
+.form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.8em;
+  border-radius: 0.5em;
+  border: 1px solid #858c94;
+}
+.form textarea {
+  margin-block-end: 2em;
+  font-family: inherit;
+}
+.form .tag span {
+  display: block;
+  text-align: center;
+}
+
+.btn {
+  /* font-family: var(--font); */
+  border-radius: 9rem;
+  letter-spacing: 0.1rem;
+  background: var(--softRed) !important;
+  color: white !important;
+  block-size: 5rem;
+  display: block;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 5rem;
+  border: 0.2rem solid var(--grayishBlue);
+  font-weight: bold;
+  padding: 0 1.5em;
+}
+.btn:hover {
+  background-color: white !important;
+  color: var(--softRed) !important;
+}
+.btn.primary {
+  background: var(--grayishBlue);
+}
+.btn.full {
+  width: 100%;
+}
+
+#envioMail {
+  opacity: 0;
+}
+
+.bg-color {
+  background-color: var(--softBlue);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
