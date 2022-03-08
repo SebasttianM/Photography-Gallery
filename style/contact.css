@@ -1,8 +1,5 @@
 :root {
-  --softBlue: hsl(231, 69%, 60%);
-  --softRed: hsl(0, 94%, 66%);
-  --grayishBlue: hsl(229, 8%, 60%);
-  --veryDarkBlue: hsl(229, 31%, 21%);
+  --golden: #c0b283;
 }
 
 html {
@@ -10,9 +7,9 @@ html {
 }
 body {
   font-size: 1.8rem;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  color: white !important;
+  color: black !important;
 }
 
 h1 {
@@ -76,10 +73,9 @@ h3 {
 }
 
 .btn {
-  /* font-family: var(--font); */
   border-radius: 9rem;
   letter-spacing: 0.1rem;
-  background: var(--softRed) !important;
+  background: gray !important;
   color: white !important;
   block-size: 5rem;
   display: block;
@@ -88,13 +84,15 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   line-height: 5rem;
-  border: 0.2rem solid var(--grayishBlue);
+  border: 0.2rem white;
   font-weight: bold;
   padding: 0 1.5em;
+  margin: 1rem 0;
 }
 .btn:hover {
   background-color: white !important;
   color: var(--softRed) !important;
+  border: 1px solid black;
 }
 .btn.primary {
   background: var(--grayishBlue);
@@ -103,16 +101,7 @@ h3 {
   width: 100%;
 }
 
-#envioMail {
-  opacity: 0;
-}
-
-.bg-color {
-  background-color: var(--softBlue);
-}
-
-input:focus,
-textarea:focus,
-select:focus {
-  outline: none;
+.idstyle {
+  margin: 0;
+  padding: 0;
 }

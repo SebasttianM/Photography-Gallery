@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
@@ -20,7 +26,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <header class="container-fluid pb-3 mb-3">
+    <header class="container-fluid pb-3">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"
@@ -39,9 +45,15 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Contac Us</a>
-              <a class="nav-link" href="#">Add your photo to the gallery</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+              <a
+                class="nav-link"
+                href="https://github.com/SebasttianM/Photography-Gallery"
+                target="_blank"
+                >Contact Us</a
+              >
             </div>
           </div>
         </div>
@@ -55,7 +67,9 @@
     <section>
       <div class="container-fluid bg-color">
         <form id="form" action="" class="form">
-          <label for="name">Author<span>*</span></label>
+          <label for="name"
+            ><strong>Author<span> *</span></strong></label
+          >
           <input
             name="name"
             required
@@ -63,7 +77,9 @@
             id="$name"
             placeholder="Author name"
           />
-          <label for="titulo">Titulo <span>*</span></label>
+          <label for="titulo"
+            ><strong>Title <span>*</span></strong></label
+          >
           <input
             name="titulo"
             required
@@ -71,7 +87,9 @@
             id="$titulo"
             placeholder="Title Photo"
           />
-          <label for="anio">Year<span>*</span></label>
+          <label for="anio"
+            ><strong>Year <span>*</span></strong></label
+          >
           <input
             name="anio"
             required
@@ -79,7 +97,9 @@
             id="$anio"
             placeholder="add photo year"
           />
-          <label for="urlPhoto">Photo<span>*</span></label>
+          <label for="urlPhoto"
+            ><strong>Photo<span>*</span></strong></label
+          >
           <input
             name="urlPhoto"
             required
@@ -88,15 +108,21 @@
             placeholder="add  url photo"
           />
 
-          <label for="descripcion">Description</label>
+          <label for="descripcion"
+            ><strong>Description<span>*</span></strong></label
+          >
           <textarea
             id="$descripcion"
             name="descripcion"
             cols="30"
-            rows="10"
+            rows="5"
+            placeholder="Add Description"
           ></textarea>
-          <label for="id" id="label-edit">ID</label>
+          <label for="id" class="idstyle" id="label-edit"
+            ><strong>Id<span> *</span></strong></label
+          >
           <input id="id" name="id" type="text" placeholder="" readonly />
+
           <button type="submit" class="btn primary full text-danger">
             Upload your Photo
           </button>
@@ -122,9 +148,26 @@
             Delete your Photo
           </button>
         </form>
-        <a href="mailto:dsp5502@gmail.com" id="envioMail">david</a>
       </div>
     </section>
+
+    <!-- ------------------------ -->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+        >
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="text-muted">© 2021 Company, Inc</span>
+      </div>
+    </footer>
+    <!-- ------------------------ -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -1,4 +1,49 @@
+html {
+  font-size: 62.5%; /*1 rem = 10px*/
+}
+body {
+  font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  color: black !important;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+h2 {
+  font-size: 3.2rem;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 3rem;
+  }
+}
+
 .cardt {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
   text-align: center;
+}
+
+:root {
+  --golden: #c0b283;
+}
+
+.link-activo:hover {
+  color: var(--golden) !important;
+  background-color: red !important;
 }

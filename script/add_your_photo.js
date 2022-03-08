@@ -1,15 +1,20 @@
-let formulario = document.getElementById('form');
-let btnTitle = document.getElementById('btnTitle');
-let btnEdit = document.getElementById('btnEdit');
+//* Obtener  Ids
 
-let btnDelete = document.getElementById('btnDelete');
+let formulario = document.getElementById('form'),
+  btnTitle = document.getElementById('btnTitle'),
+  btnEdit = document.getElementById('btnEdit'),
+  btnDelete = document.getElementById('btnDelete');
 
+//* URL API FAKE
 let url = 'https://photography-gallery-m.herokuapp.com/fotografias/';
+
+//* No Muestra el label id. recien cargada la pagina
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('id').style.display = 'none';
   document.getElementById('label-edit').style.display = 'none';
 });
 
+//* POST
 formulario.addEventListener('submit', async (e) => {
   e.preventDefault();
 
@@ -35,8 +40,10 @@ formulario.addEventListener('submit', async (e) => {
 
   let data = await resp.json();
   console.log(data);
+  formulario.reset();
 });
 
+//* GET
 btnTitle.addEventListener('click', async () => {
   document.getElementById('id').style.display = 'block';
   document.getElementById('label-edit').style.display = 'block';
@@ -61,6 +68,7 @@ btnTitle.addEventListener('click', async () => {
   document.getElementById('id').value = id;
 });
 
+//*PUT
 btnEdit.addEventListener('click', async () => {
   let idModificar = document.getElementById('id').value;
   let nameModificar = document.getElementById('$name').value;
@@ -83,11 +91,14 @@ btnEdit.addEventListener('click', async () => {
       'Content-Type': 'application/json; chartset=UTF-8',
     },
   });
+  formulario.reset();
 });
 
+//* DELETE
 btnDelete.addEventListener('click', async () => {
   let idEliminar = document.getElementById('id').value;
   await fetch(url + idEliminar, {
     method: 'DELETE',
   });
+  formulario.reset();
 });
